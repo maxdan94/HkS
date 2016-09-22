@@ -44,14 +44,9 @@ Will print in res.txt "size nodeID weight" on each line, where weight is the sum
 
 ##Initial Contributors##
 
-Maximilien Danisch
-
-Adapted from the java version of Manthos Letsios
-
-Technical consultants: Oana Balalau, Emmanuel Orsini and Mauro Sozio
-
-September 2016
-
-http://bit.ly/maxdan94
-
+Maximilien Danisch  
+Adapted from the java version of Manthos Letsios  
+Technical consultants: Oana Balalau, Emmanuel Orsini and Mauro Sozio  
+September 2016  
+http://bit.ly/maxdan94  
 maximilien.danisch@telecom-paristech.fr
