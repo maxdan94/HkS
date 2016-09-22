@@ -42,7 +42,7 @@ It will print:
 
 Will print in res.txt "size nodeID weight" on each line, where weight is the sum of the weights of the subgraph induced on all previous nodes.
 
-##Initial Contributors##
+##Initial contributors##
 
 Maximilien Danisch  
 Adapted from the java version of Manthos Letsios  
