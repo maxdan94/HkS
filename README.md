@@ -19,20 +19,15 @@ A paper on the subject was published at: http://damnet.reading.ac.uk/
 
 ##To compile##
 
-gcc bb_dks.c -o bb_dks -O3
-
-gcc bb_dks_approx.c -o bb_dks_approx -O3
-
-gcc wcore.c -o wcore -O3
-
-gcc improvegreedy.c -o improvegreedy -O3
-
+gcc bb_dks.c -o bb_dks -O3  
+gcc bb_dks_approx.c -o bb_dks_approx -O3  
+gcc wcore.c -o wcore -O3  
+gcc improvegreedy.c -o improvegreedy -O3  
 gcc improvestochastic.c -o improvestochastic -O3
 
 ##To execute##
 
-./bb_dks k net.txt
-
+./bb_dks k net.txt  
 ./bb_dks_approx k alpha net.txt
 
 - k is an integer
