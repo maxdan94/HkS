@@ -10,6 +10,8 @@ The algorithms are both based on branch and bound, the branching phase is based 
 
 wcore.c computes an ordering of the vertices according to the weighted kcore (or weighted degeneracy ordering) and compute the weight of the subgraphs induced by all prefixes. It can be used to find a heavy subgraph of any k, it does not have any fixed parameter approximation guaranty but is faster than the two algorithms based on branch and bound.
 
+improve.c is a local search algorithm that improves a solution by switching a node inside the subgraph of size k and a node outside the subgraph such that the weight of the subgraph increases. It stops when the solution becomes a stable local optimum with respect to this switch operation.
+
 A stackexchange question on the topic: http://cstheory.stackexchange.com/questions/20221/find-the-densest-subgraph-of-size-k
 
 A paper on the subject was published at: http://damnet.reading.ac.uk/
@@ -21,6 +23,8 @@ gcc bb_dks.c -o bb_dks -O3
 gcc bb_dks_approx.c -o bb_dks_approx -O3
 
 gcc wcore.c -o wcore -O3
+
+gcc improve.c -o improve -O9
 
 ##To execute##
 
@@ -41,6 +45,11 @@ It will print:
 ./wcore net.txt res.txt
 
 Will print in res.txt "size nodeID weight" on each line, where weight is the sum of the weights of the subgraph induced on all previous nodes.
+
+./improve net.txt init.txt res.txt
+
+init.txt should contain the initial subgraph in the format: "weight k nodeID1 nodeID2 nodeID3 ... nodeIDk"  
+Will print in res.txt "weight k nodeID1 nodeID2 nodeID3 ... nodeIDk", where weight is the sum of the weights of the subgraph induced on the k nodes.
 
 ##Initial contributors##
 
