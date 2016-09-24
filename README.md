@@ -10,7 +10,7 @@ The algorithms are both based on branch and bound, the branching phase is based 
 
 wcore.c computes an ordering of the vertices according to the weighted kcore (or weighted degeneracy ordering) and compute the weight of the subgraphs induced by all prefixes. It can be used to find a heavy subgraph of any k, it does not have any fixed parameter approximation guaranty but is faster than the two algorithms based on branch and bound.
 
-improvegreedy.c and improvestochastic.c are a local search algorithms that improves a solution by switching a node inside the subgraph of size k and a node outside the subgraph such that the weight of the subgraph increases. It stops when the solution becomes a stable local optimum with respect to this switch operation.  
+improvegreedy.c and improvestochastic.c are local search algorithms that improve a solution by switching a node inside the subgraph of size k and a node outside the subgraph such that the weight of the subgraph increases. It stops when the solution becomes a stable local optimum with respect to this switch operation.  
 improvegreedy.c picks the best switch everytime, while improvestochastic.c picks a random switch that will improve the solution.
 
 A stackexchange question on the topic: http://cstheory.stackexchange.com/questions/20221/find-the-densest-subgraph-of-size-k
