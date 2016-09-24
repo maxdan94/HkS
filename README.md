@@ -24,7 +24,7 @@ gcc bb_dks_approx.c -o bb_dks_approx -O3
 
 gcc wcore.c -o wcore -O3
 
-gcc improve.c -o improve -O9
+gcc improve.c -o improve -O3
 
 ##To execute##
 
@@ -54,7 +54,7 @@ Will print in res.txt "weight k nodeID1 nodeID2 nodeID3 ... nodeIDk", where weig
 ##Initial contributors##
 
 Maximilien Danisch  
-Adapted from the java version of Manthos Letsios  
+The branch and bound code is adapted from the java version of Manthos Letsios  
 Technical consultants: Oana Balalau, Emmanuel Orsini and Mauro Sozio  
 September 2016  
 http://bit.ly/maxdan94  
