@@ -4,7 +4,7 @@
 
 bb_dks.c finds the heaviest subgraph of k nodes in a weighted graph (that is a subgraph containing exactly k nodes such that the sum of the weight on its edges is maximized). The result is exact. It scales to real-world networks containing several billions of edges and for k up to 10, 20 or more depending on the structure of the graph.
 
-bb_dks_approx.c solves an approximated version of the problem. It finds a subgraph of k nodes or less such that the sum of the weight on its edges is at least 1/alpha times the one of the heaviest subgraph.
+bb_dks_approx.c solves an approximated version of the problem. It finds a subgraph of k nodes or less such that the sum of the weight on its edges is at least 1/alpha times the one of the heaviest subgraph of k nodes.
 
 The algorithms are both based on branch and bound, the branching phase is based on deciding whether to include an edge in the subgraph or not, edges are examined in non-increasing order of weight.
 
