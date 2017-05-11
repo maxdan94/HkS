@@ -1,6 +1,6 @@
-#README#
+# README
 
-##Info##
+## Info
 
 bb_dks.c finds the heaviest subgraph of k nodes in a weighted graph (that is a subgraph containing exactly k nodes such that the sum of the weight on its edges is maximized). The result is exact. It scales to real-world networks containing several billions of edges and for k up to 10, 20 or more depending on the structure of the graph.
 
@@ -17,7 +17,7 @@ A stackexchange question on the topic: http://cstheory.stackexchange.com/questio
 
 A paper on the subject was published at: http://damnet.reading.ac.uk/
 
-##To compile##
+## To compile
 
 gcc bb_dks.c -o bb_dks -O3  
 gcc bb_dks_approx.c -o bb_dks_approx -O3  
@@ -25,7 +25,7 @@ gcc wcore.c -o wcore -O3
 gcc improvegreedy.c -o improvegreedy -O3  
 gcc improvestochastic.c -o improvestochastic -O3
 
-##To execute##
+## To execute##
 
 ./bb_dks k net.txt  
 ./bb_dks_approx k alpha net.txt
@@ -50,7 +50,7 @@ Will print in res.txt "size nodeID weight" on each line, where weight is the sum
 init.txt should contain the initial subgraph in the format: "weight k nodeID1 nodeID2 nodeID3 ... nodeIDk"  
 Will print in res.txt "weight k nodeID1 nodeID2 nodeID3 ... nodeIDk", where weight is the sum of the weights of the subgraph induced on the k nodes.
 
-##Initial contributors##
+## Initial contributors
 
 Maximilien Danisch  
 The branch and bound code is adapted from the java version of Manthos Letsios  
