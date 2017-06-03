@@ -1,5 +1,9 @@
 # README
 
+## Reference
+
+Letsios, M., Balalau, O. D., Danisch, M., Orsini, E., & Sozio, M. (2016, December). Finding heaviest k-subgraphs and events in social media. In Data Mining Workshops (ICDMW), 2016 IEEE 16th International Conference on (pp. 113-120). IEEE.
+
 ## Info
 
 bb_dks.c finds the heaviest subgraph of k nodes in a weighted graph (that is a subgraph containing exactly k nodes such that the sum of the weight on its edges is maximized). The result is exact. It scales to real-world networks containing several billions of edges and for k up to 10, 20 or more depending on the structure of the graph.
@@ -25,7 +29,7 @@ gcc wcore.c -o wcore -O3
 gcc improvegreedy.c -o improvegreedy -O3  
 gcc improvestochastic.c -o improvestochastic -O3
 
-## To execute##
+## To execute
 
 ./bb_dks k net.txt  
 ./bb_dks_approx k alpha net.txt
