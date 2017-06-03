@@ -2,7 +2,9 @@
 
 ## Reference
 
-Letsios, M., Balalau, O. D., Danisch, M., Orsini, E., & Sozio, M. (2016, December). Finding heaviest k-subgraphs and events in social media. In Data Mining Workshops (ICDMW), 2016 IEEE 16th International Conference on (pp. 113-120). IEEE.
+Letsios, M., Balalau, O. D., Danisch, M., Orsini, E., & Sozio, M..  
+Finding heaviest k-subgraphs and events in social media.  
+In Data Mining Workshops (ICDMW), 2016 IEEE 16th International Conference on (pp. 113-120). IEEE.
 
 ## Info
 
