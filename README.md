@@ -38,7 +38,7 @@ gcc improvestochastic.c -o improvestochastic -O3
 
 - k is an integer
 - alpha should be greater than one.
-- net.txt should contain the weighted graph "nodeID1 nodeID2 weight". It is better if the nodeIDs are from 0 to n-1. NO SELF-LOOP!
+- net.txt should contain the weighted graph "nodeID1 nodeID2 weight". It is better if the nodeIDs are from 0 to n-1. NO SELF-LOOP and ONLY SIMPLE EDGES!
 
 It will print:
 
