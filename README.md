@@ -62,5 +62,5 @@ Maximilien Danisch
 The branch and bound code is adapted from the java version of Manthos Letsios  
 Technical consultants: Oana Balalau, Emmanuel Orsini and Mauro Sozio  
 September 2016  
-http://bit.ly/maxdan94  
-maximilien.danisch@telecom-paristech.fr
+http://bit.ly/danisch  
+maximilien.danisch@gmail.com
