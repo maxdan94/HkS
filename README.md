@@ -21,7 +21,7 @@ improvegreedy.c picks the best switch everytime, while improvestochastic.c picks
 
 A stackexchange question on the topic: http://cstheory.stackexchange.com/questions/20221/find-the-densest-subgraph-of-size-k
 
-A paper on the subject was published at: http://damnet.reading.ac.uk/
+A paper on the subject: https://papers-gamma.link/paper/8
 
 ## To compile
 
